@@ -82,6 +82,12 @@ const Holder = styled.div`
   text-align: center;
   flex-wrap: wrap;
   margin-top: 20px;
+  p{
+    font-weight: 500;
+  }
+  h3{
+    margin: 0px;
+  }
 
   img {
     height: 50px;
@@ -110,10 +116,22 @@ const Card = styled.div`
   span{
     color: #1ba5e5;
   }
+  @media (max-width: 500px) {
+    main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  }
+  /* div{
+    display: flex;
+    flex-direction: column;
+  } */
 
   @media (max-width: 768px) {
     text-align: center;
     margin: 10px;
-    width: 50%;
+    width: 100%;
   }
 `;
