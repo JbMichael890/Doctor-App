@@ -15,7 +15,8 @@ const Footer = () => {
             elit. Enim inventore laboriosam consequuntur deleniti,
             <br /> ullam optio eius nihil, placeat, ipsum obcaecati a.
           </p>
-          <HoldOne>
+       <Icon>
+       <HoldOne>
           <LiaAddressCard/>
             <p>123 Design Street . Suite 456 cityville 7890.Designland</p>
           </HoldOne>
@@ -27,6 +28,7 @@ const Footer = () => {
             <BsTelephone/>
             <p>+123765</p>
           </HoldThree>
+       </Icon>
         </TextHoldOne>
         <TextHoldTwo>
           <h3>Useful Links</h3>
@@ -94,6 +96,9 @@ const TextHoldThree = styled.div``;
 const HoldOne = styled.div`
 display:flex;
 align-items: center;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
 p{
   margin-left: 10px;
 }
@@ -103,12 +108,18 @@ p{
 const HoldTwo = styled.div`
 display:flex;
 align-items: center;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
 p{
   margin-left: 10px;
 }`;
 const HoldThree = styled.div`
 display:flex;
 align-items: center;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
 
 p{
   margin-left: 10px;
@@ -148,3 +159,8 @@ const TextHoldFour = styled.div`
     flex-direction: column;
   }
 `;
+const Icon = styled.div`
+  flex-wrap: wrap;
+  /* display: flex; */
+
+`
