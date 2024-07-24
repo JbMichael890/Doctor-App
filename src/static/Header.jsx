@@ -69,7 +69,7 @@ const Navigation = styled.div`
     margin: 0px 10px;
     font-weight: 500;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 935px) {
     display: none;
   }
 `;

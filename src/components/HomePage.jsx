@@ -45,7 +45,12 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
+@media (max-width: 1252px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
   @media (max-width: 768px) {
     width: 90%;
     text-align: center;
