@@ -133,7 +133,7 @@ const TextHoldFour = styled.div`
     outline: none;
     font-weight: 800;
     color: white;
-    
+    cursor: pointer;
     background-color:#1ba5e5;
     
 

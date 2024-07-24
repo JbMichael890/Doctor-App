@@ -70,6 +70,7 @@ const TextHold = styled.div`
     color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
     font-weight: 600;
     @media (max-width: 768px) {
       /* width: 90%; */
