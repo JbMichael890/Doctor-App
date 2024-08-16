@@ -58,7 +58,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #ddd; */
+  
 
   width: 80%;
 `;
